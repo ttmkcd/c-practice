@@ -1,14 +1,10 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	int i;
-	
-	int j;
-	 
-	j = i+10;
-	
-	printf("%d\n", j);
-	
-	return 0;
+    printf("23+43=%d\n", 23 + 43);
+    printf("87+56=%d\n", 87 + 56);
+    printf("87*56=%d\n", 87 * 56);
+
+    return 0;
 }
