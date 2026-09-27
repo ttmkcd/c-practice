@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	int x;
+	scanf("%d", &x);
+	int i;
+	int isprime = 1;   //  x是素数
+	for ( i=2; i<x; i++ ) {
+		if ( x % i == 0 ) {
+			isprime = 0;
+			break;
+		}
+    }
+	if (isprime == 1 ) {
+		printf("shisushu\n");
+	} else {
+		printf("bushisushu\n");
+	}
+	return 0;
+}
