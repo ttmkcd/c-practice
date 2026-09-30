@@ -28,6 +28,7 @@ int main()
         case 8: printf("ba"); break;
         case 9: printf("jiu"); break;
         }
+        if ( mask > 9 ) printf(" ");
         x %= mask;
         mask /= 10;
     } while ( mask > 0 );
